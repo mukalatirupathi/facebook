@@ -1,0 +1,57 @@
+.chatimg{
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin: 10px;
+}
+.chat{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 440px;
+    margin-top: 10px;
+    background-color: rgb(245, 232, 217);
+} 
+.chatbox{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+} 
+.frnds{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    border: 2px solid rgb(247, 238, 238);
+    margin-right: 10px;
+    
+}
+.chating{
+    border: 2px sloid black;
+    border-radius: 5px;
+}
+.frndschat{
+    display: flex;
+    height: 100vh;
+    width: 70%;
+    border: 2px solid black;
+    background-color: rgb(208, 242, 232);
+}
+.chatcontacts{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 30%;
+    border: 2px solid black;
+    background-color: rgb(234, 234, 243);
+    gap: 10px;
+    align-items: center;
+}
+.messbutton{
+    border: none;
+}
+.homechat{
+    margin-left: 20px;
+}

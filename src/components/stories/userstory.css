@@ -1,0 +1,11 @@
+.userprofile{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    position: relative;
+}
+.usercoverphoto{
+    height: 150px;
+    width: 150px;
+    position: relative;
+}

@@ -1,0 +1,76 @@
+.proflie{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid bisque;
+    width: 800px;
+    height: 100vh;
+    margin-left: 300px;
+    background-color: rgb(226, 249, 249);
+
+}
+.coverphoto{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    border: 2px sloid black;
+
+}
+.profliephoto{
+    height: 100px;
+    width: 100px;
+    border-radius:50px;
+    position: relative;
+}
+.username{
+    display: flex;
+    flex-direction: column;
+    margin-top: 210px;
+    margin-left: 80px;
+}
+.userbutton{
+    display: flex;
+    flex-direction: row;
+}
+.userbutton button{
+    margin-right: 40px;
+}
+.followbutton{
+    margin-right: 40px;  
+}
+.postProfile{
+    height: 40px ;
+    width: 40px;
+    border-radius: 100%;
+}
+.postimg{
+    height: 600px;
+    width: 800px;
+}
+.postheader{
+    display: flex;
+    flex-direction: row;
+}
+.postbody{
+    margin: 10px;
+}
+.postfooter{
+    margin-top: 5px;
+    margin: 10px;
+    margin-right: 20px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+.postfooter button{
+    border: none;
+    margin-right: 150px;
+}
+.userposts{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: aquamarine;
+    width: 800px;
+    margin-left: 300px;
+}

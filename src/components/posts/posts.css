@@ -1,0 +1,29 @@
+.postProfile{
+    height: 40px ;
+    width: 40px;
+    border-radius: 100%;
+}
+.postimg{
+    height: 600px;
+    width: 1000px;
+}
+.postheader{
+    display: flex;
+    flex-direction: row;
+}
+.postbody{
+    margin: 10px;
+}
+.postfooter{
+    margin-top: 5px;
+    margin: 10px;
+    margin-right: 20px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+.postfooter button{
+    border: none;
+    margin-right: 150px;
+}

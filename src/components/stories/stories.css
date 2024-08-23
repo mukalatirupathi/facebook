@@ -1,0 +1,30 @@
+.storyProfile{
+    height: 40px ;
+    width: 40px;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    z-index: 10;
+    margin-left: 10px;
+}
+.prof{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+.story{
+    height: 200px ;
+    width: 170px;
+    position: relative;
+    top: -50px;
+    display: flex;
+    flex-direction: row;
+}
+.img{
+    border-radius: 10px;
+}
+.big{
+    box-sizing: border-box;
+    overflow:hidden
+}

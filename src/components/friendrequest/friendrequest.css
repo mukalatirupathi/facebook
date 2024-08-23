@@ -1,0 +1,29 @@
+.frndimg{
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+
+}
+.frndrequest{
+    margin: 40px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 239, 239);
+    border-radius: 20px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+
+  
+  .frndrequest.dark {
+    background-color: black;
+    color: white;
+  
+  }
+.reqbutton{
+   margin-right: 10px;
+   
+}

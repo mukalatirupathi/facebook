@@ -1,0 +1,51 @@
+.nav{
+ background-color: rgb(255, 255, 255);
+    border: 1px solid black; 
+    border-radius: 10px;
+    box-shadow: 2px 1px 10px 1px black;
+display: flex;
+flex-direction: row;
+justify-content: start;
+align-items: center;
+gap: 350px;
+height: 60px; }
+.navleft{
+ display: flex;
+ align-items: center;
+justify-content: space-evenly;
+padding-left: 20px;
+gap: 20px;
+}
+.navright{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    gap: 5px;
+  
+}
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ margin-left: -50px;
+    gap: 50px;
+}
+.middle button{
+    border: none;
+    background: none;
+}
+
+.userphoto{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    border-radius: 100%;
+
+}
+.logo{
+    height: 40px;
+    width: 40px;
+    
+}
+

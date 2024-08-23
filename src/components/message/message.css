@@ -1,0 +1,38 @@
+.messageimg{
+height: 50px;
+width: 50px;
+border-radius: 100%;
+align-items: center;
+justify-content: center;
+
+}
+.message{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.usermessage{
+    margin-bottom: 3px;
+    text-align: center;
+}
+.frndmessage{
+    margin: 40px;
+    background-color: white;
+    background-color:rgb(239, 235, 235);
+    border-radius: 20px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+  
+  .frndmessage.dark {
+    background-color: black;
+    color: white;
+ 
+  }
+.search{
+    text-align: center;
+}
