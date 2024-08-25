@@ -1,0 +1,9 @@
+.signin{
+    border: 1px solid black;
+    width: 300px;
+    padding: 10px;
+    background-color: rgb(248, 237, 222);
+  }
+.sign{
+  background-color: rgb(200, 236, 224);
+}

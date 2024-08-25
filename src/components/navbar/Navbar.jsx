@@ -22,10 +22,12 @@ const Navbar = ({handledarkmode}) => {
         <button onClick={handledarkmode} ><DarkModeIcon/></button>
         <button><MoreHorizIcon/></button>
       </div>
+      <Link to='/profile'>
       <div className='navright'>
         <img  className='userphoto'src={CurrentUser.map((user)=>(user.ProfieImage))} width={100}/>
         <h4 className='mt-2'>beg joker</h4>
       </div>
+      </Link>
     </div>
   )
 }
