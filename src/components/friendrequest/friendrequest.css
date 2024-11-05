@@ -5,7 +5,7 @@
 
 }
 .frndrequest{
-    margin: 40px;
+    margin: 20px;
     background-color: white;
     justify-content: center;
     align-items: center;
@@ -13,11 +13,10 @@
     border-radius: 20px;
     width: 100%;
     text-align: center;
+    width: 300px;
     
 }
 
-
-  
   .frndrequest.dark {
     background-color: black;
     color: white;

@@ -10,7 +10,7 @@ const Chathistory = ({userfrnd}) => {
       <h4 className='frndname'>{userfrnd}</h4>
      {
         frndchat.chatHistory.map((chat)=>(
-          <h6>{chat.message}</h6>
+          <h6 className='messagehistory' >{chat.message}</h6>
         ))
      }
     </div>

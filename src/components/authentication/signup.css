@@ -1,7 +1,21 @@
 .signup{
     border: 1px solid black;
-    width: 300px;
+    width: 400px;
     padding: 20px;
-    margin-left: 41%;
-    margin-top: 3%;
+    margin-left: 35%;
+    margin-top: 10%;
+    background-color: hsl(159, 41%, 78%);
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.signupbutt{
+    width: 350px;
+}
+.title{
+    margin-left: 30%;
+    margin-bottom: 10PX;
+}
+.usersignup{
+    background-color: antiquewhite;
+    height: 100%;
 }

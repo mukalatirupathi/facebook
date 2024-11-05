@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     border: 2px solid bisque;
-    width: 800px;
+    width: 860px;
     height: 100vh;
     margin-left: 300px;
     background-color: rgb(226, 249, 249);
@@ -21,12 +21,15 @@
     width: 100px;
     border-radius:50px;
     position: relative;
+    top: 160px;
+    right: 185px;
 }
+
 .username{
     display: flex;
     flex-direction: column;
-    margin-top: 210px;
-    margin-left: 80px;
+    margin-top: 80px;
+    margin-left: 90px;
 }
 .userbutton{
     display: flex;
@@ -54,7 +57,7 @@
 .postbody{
     margin: 10px;
 }
-.postfooter{
+/* .postfooter{
     margin-top: 5px;
     margin: 10px;
     margin-right: 20px;
@@ -66,11 +69,10 @@
 .postfooter button{
     border: none;
     margin-right: 150px;
-}
+} */
 .userposts{
     border: 2px solid black;
     border-radius: 10px;
-    background-color: aquamarine;
-    width: 800px;
+    width: 850px;
     margin-left: 300px;
 }

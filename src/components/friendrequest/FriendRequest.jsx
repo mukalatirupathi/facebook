@@ -15,12 +15,14 @@ const FriendRequest = ({darkmode,theme}) => {
       <div>
         {
             Firends.map(frnd=>(
-                <div key={frnd}>
-                    <img className='frndimg mt-2' src={frnd.img}/>
-                    <h6 >{frnd.info}</h6>
+                <div key={frnd} >
                     <div>
+                         <img className='frndimg mt-2' src={frnd.img}/>
+                         <h6 >{frnd.info}</h6>
+                      <div>
                         <button className='btn btn-primary reqbutton' onClick={()=>handleaccept(frnd.id,frnd.name)}>Accept</button>
                         <button className='btn btn-danger' onClick={()=>handledelete(frnd.id,frnd.name)}>delete</button>
+                       </div>
                     </div>
                 </div>
             

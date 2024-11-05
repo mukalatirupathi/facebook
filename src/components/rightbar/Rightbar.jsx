@@ -12,5 +12,4 @@ const Rightbar = ({darkmode,theme}) => {
     </div>
   )
 }
-
 export default Rightbar

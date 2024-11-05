@@ -15,32 +15,34 @@ const Signin = ({userlogin,setuserlogin}) => {
     e.preventDefault()
     try{
       await signInWithEmailAndPassword(auth,email,password)
-      alert("register succesfully")
+      alert("login sucessfully")
+       setuserlogin(true)
+       navigate('/layout')
     }
     catch(err){
     console.log(err);
+    alert('Failed to login. Please check your email or password.');
     }
 
-    setuserlogin(true)
-    navigate('/layout')
   }
   return (
+  <div className='usersignin'>
     <div className='sign'>
-        <h4  className="logo">facebook</h4>
       <div className='signin'>
         <form>
-        <h2>signin</h2>
-        <h6>email</h6>
-        <input type='email' className='form-control'onChange={(e)=>(setemail(e.target.value))} placeholder='your email .?'></input>
-        <h6>password</h6>
-        <input type='password' className='form-control' onChange={(e)=>(setemail(e.target.value))} placeholder='password'></input>
+        <h2 className='signheader'>signin</h2>
+        <h6 className='mt-2'>email :</h6>
+        <input type='email' className='form-control mt-3'onChange={(e)=>(setemail(e.target.value))} placeholder='your email .?'></input>
+        <h6 className='mt-2'>password :</h6>
+        <input type='password' className='form-control mt-3' onChange={(e)=>(setpassword(e.target.value))} placeholder='password'></input>
         <div>
-          <button className='btn btn-primary mt-2' onClick={handlesignin}>sign in</button>
+          <button className='btn btn-primary mt-3 signinbutt' onClick={handlesignin}>sign in</button>
         </div>
-         <p className='mt-2'>don't have account?<Link to="/signup">register</Link></p> 
+         <p className='mt-2 p-2'>don't have account?<Link to="/signup">register</Link></p> 
        </form>
-     </div>
+      </div>
     </div>
+  </div>
   )
 }
 

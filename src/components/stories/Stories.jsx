@@ -5,20 +5,20 @@ import './stories.css'
 
 const Stories12= () => {
   return (
-    <div className='big'>
-      <div className='prof'>
+    <div className='stories'>
+      <div className='story'>
       <Userstory/>
         {
             Stories.map((story)=>(
-              <div key={story.id}>
+              <div key={story.id} className="story-container">
                   <div>
                     <img  className='storyProfile' src={story.storyProfile}/>
                    </div>
+                  <div>
+                    <img  className='img' src={story.story}/> 
+                  </div>
+                  <h6 >{story.name}</h6>
                 
-                <div className='story'>
-                  <img  className='img' src={story.story}/> 
-                </div>
-                <h6>{story.name}</h6>
                
               </div>
            ))

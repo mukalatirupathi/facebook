@@ -12,9 +12,9 @@ const Navbar = ({handledarkmode}) => {
   return (
     <div className='nav'>
       <div className='navleft'>
-        <img src='../src/assets/img/facebooklogo.png' className='logo'></img>
-        <input type="text" className='form-control' placeholder='Search'></input>
-        <HomeIcon/>
+        <img src='../src/assets/img/facebooklogo.png' className='logo mt-3'></img>
+        <input type="text" className='form-control1' placeholder='Search'></input>
+        <Link to="/layout"><HomeIcon/></Link>
       </div>
       <div className='middle'>
         <Link to="/chatbox"><button><EmailIcon/></button></Link>
@@ -25,7 +25,7 @@ const Navbar = ({handledarkmode}) => {
       <Link to='/profile'>
       <div className='navright'>
         <img  className='userphoto'src={CurrentUser.map((user)=>(user.ProfieImage))} width={100}/>
-        <h4 className='mt-2'>beg joker</h4>
+        <h4 >beg joker</h4>
       </div>
       </Link>
     </div>

@@ -4,8 +4,10 @@
     border-radius: 100%;
 }
 .postimg{
-    height: 600px;
-    width: 1000px;
+    /* height: 600px;
+    width: 1000px; */
+    object-fit: cover;
+    
 }
 .postheader{
     display: flex;
@@ -22,8 +24,11 @@
     border: 1px solid black;
     border-radius: 10px;
     background-color: white;
-}
-.postfooter button{
+} 
+ .postfooter button{
     border: none;
     margin-right: 150px;
+}
+.post{
+    margin-left: 45px;
 }

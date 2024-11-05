@@ -1,9 +1,31 @@
 .signin{
-    border: 1px solid black;
-    width: 300px;
-    padding: 10px;
-    background-color: rgb(248, 237, 222);
-  }
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 400px;
+  background-color: hsl(159, 41%, 78%);
+  padding: 20px;
+}
 .sign{
-  background-color: rgb(200, 236, 224);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+form h6{
+float: left;
+}
+.usersignin{
+  background-color: antiquewhite;
+  height: 100%;
+  
+}
+.signheader{
+  text-align: center;
+}
+.signinbutt{
+  width: 350px;
+}
+.logo{
+  margin-left: 47%;
+  color: blue;
 }

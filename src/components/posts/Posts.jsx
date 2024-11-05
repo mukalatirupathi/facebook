@@ -12,7 +12,7 @@ const Posts = () => {
     <div>
       {
         Feeds.map((post)=>(
-            <div>
+            <div className='post'>
                 <div className='postheader'>
                     <img className='postProfile' src={post.feedProfile}/>
                     <h6 className='mt-2 m-1'>{post.name}</h6>

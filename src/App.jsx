@@ -27,7 +27,7 @@ const [theme,settheme]=useState('light')
         <Route path='/layout' element={<Layout theme={theme} darkmode={darkmode}/>}></Route>
         <Route path='/chatbox' element={<Chatbox/>}></Route>
         <Route path='/profile' element={<Proflie/>}></Route>
-
+        <Route path='/layout' element={<Layout theme={theme} darkmode={darkmode}/>}></Route>
       </Routes>
     </div>
     </BrowserRouter>
